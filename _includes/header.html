@@ -51,9 +51,9 @@
                   {%- endif -%}
                 </a>
               </li>
-
+              
+              <!-- Blog 
               {% if site.blog_nav_title %}
-              <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
@@ -61,7 +61,7 @@
                   {%- endif -%}
                 </a>
               </li>
-              {%- endif %}
+              {%- endif %} -->
 
               <!-- Publications -->
               <li class="nav-item {% if page.url contains 'publications' %}active{% endif %}">
@@ -72,49 +72,33 @@
                 </a>
               </li>
                 
-              {% if site.publications_nav_title %}
-              <!-- publications -->
-              <li class="nav-item {% if page.url contains 'publications' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/Publications/' | relative_url }}">{{ site.publications_nav_title }}
-                  {%- if page.url contains 'publications' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
-
-              {% if site.cv_nav_title %}
               <!-- cv -->
               <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/cv/' | relative_url }}">{{ site.cv_nav_title }}
-                  {%- if page.url contains 'cv' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
+                <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV
+                    {%- if page.url contains 'cv' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
                 </a>
               </li>
-              {%- endif %}
 
-              {% if site.teaching_nav_title %} 
               <!-- teaching -->
               <li class="nav-item {% if page.url contains 'teaching' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/Teaching/' | relative_url }}">{{ site.teaching_nav_title }}
-                  {%- if page.url contains 'teaching' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
+                <a class="nav-link" href="{{ '/teaching/' | relative_url }}">Teaching
+                    {%- if page.url contains 'teaching' -%}
+                    <span class="sr-only">(current)</span>
+                    {%- endif -%}
                 </a>
               </li>
-              {%- endif %}
 
-              {% if site.people_nav_title %} 
               <!-- people -->
               <li class="nav-item {% if page.url contains 'people' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/People/' | relative_url }}">{{ site.people_nav_title }}
-                  {%- if page.url contains 'people' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
+                <a class="nav-link" href="{{ '/people/' | relative_url }}">People
+                     {%- if page.url contains 'people' -%}
+                    <span class "sr-only">(current)</span>
+                    {%- endif -%}
                 </a>
-              </li>                
-              {%- endif %}
+              </li>
+
 
               <!-- Other pages 
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
