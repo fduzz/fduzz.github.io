@@ -45,7 +45,7 @@
 
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                <a class="nav-link" href="{{ '/' | relative_url }}">Home
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -74,7 +74,7 @@
                 
               <!-- cv -->
               <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/cv/' | relative_url }}">cv
+                <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV
                   {%- if page.url contains 'cv' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
