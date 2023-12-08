@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: During PhD studies at Fudan, I served as a teaching assistant for several courses.
 nav: true
 nav_order: 5
 ---
