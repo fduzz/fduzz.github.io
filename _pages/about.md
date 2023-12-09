@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student in Fudan University, School of Economics. I’m very lucky to be advised by Prof. [Zhao Chen](https://scholar.google.com/citations?user=H9oK5GkAAAAJ).
+I'm a PhD student at School of Economics, Fudan University. I’m very lucky to be advised by Prof. [Zhao Chen](https://scholar.google.com/citations?user=H9oK5GkAAAAJ).
 
 My recent interests lie in digital economy and the development of emerging industries. I also follow topics related to political economy.
 
-Email: zhangzhou23@m.fudan.edu.cn
+Email: [zhangzhou23@m.fudan.edu.cn](zhangzhou23@m.fudan.edu.cn)
 
