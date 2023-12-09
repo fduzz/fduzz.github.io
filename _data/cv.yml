@@ -1,8 +1,10 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Zhou Zhang （张洲）
+    - name: Chinese Name
+      value: 张洲
+    - name: English Name
+      value: Zhou Zhang
     #- name: Date of Birth
       #value: 14th March 1879
     - name: Languages
@@ -11,22 +13,22 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Student in Economics
+      institution: Fudan University, Shanghai, China
+      year: Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Excellent PhD Program of Fudan University
+        #- title: Description 3.
+          #contents:
+            #- Sub-description 1.
+            #- Sub-description 2.
+    - title: Bachelor in Economics (with Honors)
+      institution: Fudan University, Shanghai, China
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Undergraduate Top-notch Program of Fudan University 
+        - 2021-22, 22-23 First Prize of Outstanding Undergraduate Student Scholarship (1/29)
+        - 2023 Outstanding Graduates of Shanghai
 
 - title: Experience
   type: time_table
