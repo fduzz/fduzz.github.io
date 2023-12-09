@@ -2,12 +2,12 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zhou Zhang （张洲）
+    #- name: Date of Birth
+      #value: 14th March 1879
     - name: Languages
-      value: English, German
-
+      value: Mandarin, English
+      
 - title: Education
   type: time_table
   contents:
