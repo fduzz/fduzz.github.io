@@ -17,7 +17,7 @@
       institution: Fudan University, Shanghai, China
       year: Current
       description:
-        - Advisor: <a href="https://scholar.google.com/citations?user=H9oK5GkAAAAJ">Zhao Chen</a>
+        - Advised by Prof. <a href="https://scholar.google.com/citations?user=H9oK5GkAAAAJ">Zhao Chen</a>
         - Excellent PhD Program of Fudan University
         #- title: Description 3.
           #contents:
@@ -26,8 +26,8 @@
     - title: Bachelor in Economics (with Honors)
       institution: Fudan University, Shanghai, China
       year: 2023
-      #advisor: <a href="https://xiaohuanlan.weebly.com/">Xiaohuan Lan</a>
       description:
+        - Advised by Prof. <a href="https://xiaohuanlan.weebly.com/">Xiaohuan Lan</a>
         - Undergraduate Top-notch Program of Fudan University 
         - 2021-22, 22-23 First Prize of Outstanding Undergraduate Student Scholarship (1/29)
         - 2023 Outstanding Graduates of Shanghai
