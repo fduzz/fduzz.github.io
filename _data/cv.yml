@@ -16,7 +16,7 @@
     - title: PhD Student in Economics
       institution: Fudan University, Shanghai, China
       year: Current
-      #advisor: <a href="https://scholar.google.com/citations?user=H9oK5GkAAAAJ">Zhao Chen</a>
+      advisor: Zhao Chen #<a href="https://scholar.google.com/citations?user=H9oK5GkAAAAJ">Zhao Chen</a>
       description:
         - Excellent PhD Program of Fudan University
         #- title: Description 3.
