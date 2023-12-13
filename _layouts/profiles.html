@@ -10,8 +10,6 @@ layout: page
           {% for profile in page.profiles %}
           <hr>
           <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2015613998&auto=0&height=66"></iframe>
-            {%- if profile.image %}
               {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
 
               {% if profile.image_circular %}
