@@ -4,4 +4,4 @@
 
 Above is my namesake song, from *Omnipotent Youth Society*, a rock band I really love.
 
-The man in the song, Zhang Zhou (obviously not me), is originally of Vietnamese-Chinese descent and later naturalised as a refugee in Switzerland. Zhang Zhou's life has been marked by war and disaster, moving through China, Vietnam and Malaysia. Eventually, the family was taken in by the Swiss government and he became a mechanic in a Swiss factory. Life in Switzerland for Zhang's family is quiet and full of traditional Chinese customs.
+The man in the song, Zhang Zhou (obviously not me), is originally of Vietnamese-Chinese descent and later naturalised as a refugee in Switzerland. Zhang Zhou's life has been marked by war and disaster, moving through China, Vietnam, Malaysia and eventually Switzerland. He ended up working as a mechanic in a factory in Switzerland, living a quiet, traditional Chinese life.
