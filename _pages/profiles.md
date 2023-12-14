@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: People
-description: Share some instresting facts here.
+description: Share some interesting facts here.
 nav_order: 6
 
 profiles:
