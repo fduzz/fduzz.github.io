@@ -13,12 +13,12 @@ profiles:
     content: profiles_song.md
     image_circular: false # crops the image to make it circular
     more_info: > 
-      <p>Album Cover of Omnipotent Youth Society</p>
+      <p>Omnipotent Youth Society</p>
 
   - align: left
     image: zju.jpg
     content: profiles_zju.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Group photo at Jiefangbei (Liberation Monument), Chongqing</p>
+      <p>Photo at Liberation Monument, Chongqing</p>
 ---
