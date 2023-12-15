@@ -29,73 +29,70 @@
       description:
         - Advised by Prof. <a href="https://xiaohuanlan.weebly.com/">Xiaohuan Lan</a>
         - Undergraduate Top-notch Program of Fudan
-        - 2021-22, 22-23 First Prize of Outstanding Undergraduate Student Scholarship (1/29)
+        - 2021-22, 22-23 First Prize of the Scholarship for Outstanding Students (1/29)
         - 2023 Outstanding Graduates of Shanghai
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: School of Economics, Fudan University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Served as research assistant to Prof. <a href="https://sites.google.com/view/zhikuoliu/">Zhikuo Liu</a>
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: NLP of Govt. Reports #<a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2023
+      description: 
+        - An excellent group assignment in Prof. <a href="https://www.wiwi.hu-berlin.de/de/forschung/irtg/lvb/members/personalpages/wh">Wolfgang Karl Härdle</a>'s short course.
+        - To be displayed on <a href="https://quantinar.com/">Quantinar</a>
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - The Chinese Mathematics Competitions (CMC) **Second Prize** (Non-Mathematics) 
+        #- **Outstanding Youth** at Fudan
+    - year: 2021
+      items:
+        - The Chinese Mathematics Competitions (CMC) **First Prize** (Non-Mathematics) 
+        - **Outstanding Student** at Fudan
+    - year: 2022
+      items:
+        - The Mathematical Contest in Modeling (MCM/ICM) **Finalist**
+        - **Maxwealth Fund Scholarship** at Fudan (the First Prize)
+        - **Outstanding Student Leader** at Fudan
+    - year: 2023
+      items:
+        - **Outstanding Graduates** of Shanghai Universities and Colleges
+        - **First Prize** of the Scholarship for Outstanding Students 
+        - title: Organiser of **excellent social practices**
+          contents:
+            - <a href="https://mp.weixin.qq.com/s/4hNyAbmjmo9JpJdOEPF83g">Invited talk at Fudan Student Union</a>
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Emerging Industries
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - The role of industrial policy and regulation
+        - Transformation of the digital economy
+    - title: Political Economy
       items:
-        - Description 1.
-        - Description 2.
+        - The role of government in economic development
+        - Strategic behaviour of government and enterprises towards policy
+        - Promotion system and political connections
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Music, Running, etc.
+    - Fudan Choral Competition **Group Gold Medal** (1st Place) 
