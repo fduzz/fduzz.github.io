@@ -29,7 +29,7 @@
       description:
         - Advised by Prof. <a href="https://xiaohuanlan.weebly.com/">Xiaohuan Lan</a>
         - Undergraduate Top-notch Program of Fudan
-        - 2021-22, 22-23 First Prize of the Scholarship for Outstanding Students (1/29)
+        #- 2021-22, 22-23 First Prize of the Scholarship for Outstanding Students (1/29)
         - 2023 Outstanding Graduates of Shanghai
 
 - title: Experience
@@ -39,20 +39,20 @@
       institution: China Center for Economic Studies, Fudan University
       year: 2023
       description:
-        - Served as research assistant to Prof. <a href="https://sites.google.com/view/zhikuoliu/">Zhikuo Liu</a>
+        - Research assistant to Prof. <a href="https://sites.google.com/view/zhikuoliu/">Zhikuo Liu</a>
 #        - Description 2.
 #        - title: Description 3.
 #          contents:
 #            - Sub-description 1.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: NLP of Govt. Reports #<a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2023
-      description: 
-        - Group assignment in Prof. <a href="https://www.wiwi.hu-berlin.de/de/forschung/irtg/lvb/members/personalpages/wh">Wolfgang Karl Härdle</a>'s short course.
-        - To be displayed on <a href="https://quantinar.com/">Quantinar</a>
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: NLP of Govt. Reports #<a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2023
+#      description: 
+#        - Group assignment in Prof. <a href="https://www.wiwi.hu-berlin.de/de/forschung/irtg/lvb/members/personalpages/wh">Wolfgang Karl Härdle</a>'s short course.
+#        - To be displayed on <a href="https://quantinar.com/">Quantinar</a>
 
 - title: Honors and Awards
   type: time_table
@@ -61,39 +61,39 @@
       #items: 
         #- The Chinese Mathematics Competitions (CMC) Second Prize (Non-Mathematics) 
         #- Outstanding Youth at Fudan
-    - year: 2021
-      items:
-        - The Chinese Mathematics Competitions (CMC) First Prize (Non-Mathematics) 
+    #- year: 2021
+      #items:
+        #- The Chinese Mathematics Competitions (CMC) First Prize (Non-Mathematics) 
         #- Outstanding Student at Fudan
     - year: 2022
       items:
         - The Mathematical Contest in Modeling (MCM/ICM) Finalist
         - Maxwealth Fund Scholarship (the First Prize)
         #- Outstanding Student Leader at Fudan
-    - year: 2023
-      items:
-        - Outstanding Graduates of Shanghai Universities and Colleges
-        - First Prize of the Scholarship for Outstanding Students 
-        - title: Organiser of excellent social practices
-          contents:
-            - <a href="https://mp.weixin.qq.com/s/4hNyAbmjmo9JpJdOEPF83g">Invited talk</a> at Fudan Student Union
+    #- year: 2023
+      #items:
+        #- Outstanding Graduates of Shanghai Universities and Colleges
+        #- First Prize of the Scholarship for Outstanding Students 
+        #- title: Organiser of excellent social practices
+          #contents:
+            #- <a href="https://mp.weixin.qq.com/s/4hNyAbmjmo9JpJdOEPF83g">Invited talk</a> at Fudan Student Union
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Emerging Industries
       items: 
-        - The role of industrial policy and regulation
+#        - The role of industrial policy and regulation
         - Transformation of the digital economy
     - title: Political Economy
-      items:
-        - The role of government in economic development
-        - Strategic behaviour of local government or enterprises
-        - Promotion system and political connections
+#      items:
+#        - The role of government in economic development
+#        - Strategic behaviour of local government or enterprises
+#        - Promotion system and political connections
 
 - title: Other Interests
   type: list
   contents:
-    - Fudan Choral Competition Group Gold Medal (1st Place) 
+#    - Fudan Choral Competition Group Gold Medal (1st Place) 
     - <u>Hobbies:</u> Music, Running, etc.
     
