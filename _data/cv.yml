@@ -67,7 +67,7 @@
         #- Outstanding Student at Fudan
     - year: 2022
       items:
-        - Finalist in Interdisciplinary Contest in Modeling 
+        #- Finalist in Interdisciplinary Contest in Modeling 
         - Maxwealth Fund Scholarship 
         #- Outstanding Student Leader at Fudan
     #- year: 2023
@@ -78,22 +78,22 @@
           #contents:
             #- <a href="https://mp.weixin.qq.com/s/4hNyAbmjmo9JpJdOEPF83g">Invited talk</a> at Fudan Student Union
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Emerging Industries
-      items: 
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Emerging Industries
+#      items: 
 #        - The role of industrial policy and regulation
-        - Transformation of the digital economy
-    - title: Political Economy
+#        - Transformation of the digital economy
+#    - title: Political Economy
 #      items:
 #        - The role of government in economic development
 #        - Strategic behaviour of local government or enterprises
 #        - Promotion system and political connections
 
-- title: Other Interests
-  type: list
-  contents:
+#- title: Other Interests
+#  type: list
+#  contents:
 #    - Fudan Choral Competition Group Gold Medal (1st Place) 
-    - <u>Hobbies:</u> Music, Running, etc.
+#    - <u>Hobbies:</u> Music, Running, etc.
     
