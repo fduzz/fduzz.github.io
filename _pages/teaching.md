@@ -10,3 +10,5 @@ nav_order: 5
 Teaching Assiatant:
 
 Principles of Economics by Prof. [Xiaohuan Lan](https://xiaohuanlan.weebly.com/) (2023 Fall)
+
+Intermediate Macroeconomics by Prof. [Jing Zhou](https://jing-zhou.weebly.com/) (2024 Spring)
