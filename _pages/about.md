@@ -22,5 +22,5 @@ I'm a PhD Candidate at School of Economics, Fudan University. I’m very lucky t
 
 My recent interests lie in digital economy and firm dynamics. I also follow topics related to political economy.
 
-Email: zhangzhou23@m.fudan.edu.cn
+Email: zhangzhou23[at]m.fudan.edu.cn
 
