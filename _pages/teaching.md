@@ -7,8 +7,10 @@ nav: true
 nav_order: 5
 ---
 
-Teaching Assiatant:
+Undergraduate:
 
-Principles of Economics by Prof. [Xiaohuan Lan](https://xiaohuanlan.weebly.com/) (2023 Fall)
+Principles of Economics by Prof. [Xiaohuan Lan](https://xiaohuanlan.weebly.com/) (Fall 2023, 2024)
 
-Intermediate Macroeconomics by Prof. [Jing Zhou](https://jing-zhou.weebly.com/) (2024 Spring)
+Intermediate Macroeconomics by Prof. [Jing Zhou](https://jing-zhou.weebly.com/) (Spring 2024)
+
+Game Theory (H) by Prof. Ting Li (Fall 2024)
