@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: I do not have any academic publications. All original webpage template content retained is irrelevant.
+description: No publications. 
 nav: true
 nav_order: 1
 ---
