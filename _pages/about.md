@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>PhD Candidate in Economics</p>
-    <p>Fudan University</p>
+  more_info: #>
+    #<p>PhD Candidate in Economics</p>
+    #<p>Fudan University</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
