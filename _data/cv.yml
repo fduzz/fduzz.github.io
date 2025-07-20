@@ -18,7 +18,7 @@
       year: Current
       description:
         - Advised by Prof. <a href="https://scholar.google.com/citations?user=H9oK5GkAAAAJ">Zhao Chen</a>
-        - Fudan Elite PhD Program
+        #- Fudan Elite PhD Program
         #- title: Description 3.
           #contents:
             #- Sub-description 1.
@@ -28,9 +28,9 @@
       year: 2023
       description:
         - Advised by Prof. <a href="https://xiaohuanlan.weebly.com/">Xiaohuan Lan</a>
-        - Undergraduate Top-notch Program of Fudan
+        #- Undergraduate Top-notch Program of Fudan
         #- 2021-22, 22-23 First Prize of the Scholarship for Outstanding Students (1/29)
-        - 2023 Outstanding Graduates of Shanghai
+        #- 2023 Outstanding Graduates of Shanghai
 
 - title: Experience
   type: time_table
@@ -65,10 +65,10 @@
       #items:
         #- The Chinese Mathematics Competitions (CMC) First Prize (Non-Mathematics) 
         #- Outstanding Student at Fudan
-    - year: 2022
-      items:
+    #- year: 2022
+      #items:
         #- Finalist in Interdisciplinary Contest in Modeling 
-        - Maxwealth Fund Scholarship 
+        #- Maxwealth Fund Scholarship 
         #- Outstanding Student Leader at Fudan
     #- year: 2023
       #items:
