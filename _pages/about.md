@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a PhD Candidate at School of Economics, Fudan University. I’m very lucky to be advised by Prof. [Zhao Chen](https://scholar.google.com/citations?user=H9oK5GkAAAAJ).
 
-My recent interests lie in digital economy and firm dynamics. I also follow topics related to political economy.
+My research interests lie in understanding how various forces shape economic outcomes, with a particular focus on frontier technologies and government regulation.
 
 Email: zhangzhou23 [at] m.fudan.edu.cn
 
