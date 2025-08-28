@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: No publications. 
+description: Stay tuned.
 nav: true
 nav_order: 1
 ---
