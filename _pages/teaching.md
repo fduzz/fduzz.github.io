@@ -14,3 +14,5 @@ Principles of Economics by Prof. [Xiaohuan Lan](https://xiaohuanlan.weebly.com/)
 Intermediate Macroeconomics by Prof. [Jing Zhou](https://jing-zhou.weebly.com/) (Spring 2024)
 
 Game Theory (H) by Prof. Ting Li (Fall 2024)
+
+Analytical and Managerial Economics (Applied Econometrics) by Prof. [Fei Jin](https://feijin.weebly.com/) (Fall 2025)
