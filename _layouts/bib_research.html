@@ -74,11 +74,11 @@
   {%- assign status = "" -%}
 {%- endif -%}
 {%- capture research_meta -%}
-  {%- if status != "" -%}
-    {{ status }}
-  {%- else -%}
-    {%- if entry.year -%}{{ entry.year }}{%- endif -%}
-    {%- if entry.pages -%}{%- if entry.year -%}, {% endif -%}{{ entry.pages | replace: "--", "-" }}{%- endif -%}
+  {%- if entry.year -%}{{ entry.year }}{%- endif -%}
+  {%- if entry.pages -%}
+    {%- if entry.year -%}, {% endif -%}{{ entry.pages | replace: "--", "-" }}
+  {%- elsif status != "" -%}
+    {%- if entry.year -%}, {% endif -%}{{ status }}
   {%- endif -%}
 {%- endcapture -%}
 {%- assign research_meta = research_meta | strip -%}
