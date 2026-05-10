@@ -18,12 +18,12 @@ Previous research renderer, kept for quick rollback:
 
 <div class="publications research-one-line">
   <section class="research-section">
-    <h2 class="research-section-title">Published &amp; Forthcoming</h2>
-    {% bibliography -f {{ site.scholar.bibliography }} --template bib_research --query @*[category=published]* %}
+    <h2 class="research-section-title">Publications</h2>
+    {% bibliography -f {{ site.scholar.bibliography }} --template bib_research --group_by none --query @*[category=published]* %}
   </section>
 
   <section class="research-section">
     <h2 class="research-section-title">Working Papers</h2>
-    {% bibliography -f {{ site.scholar.bibliography }} --template bib_research --query @*[category=working]* %}
+    {% bibliography -f {{ site.scholar.bibliography }} --template bib_research --group_by none --query @*[category=working]* %}
   </section>
 </div>
