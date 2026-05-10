@@ -1,0 +1,104 @@
+---
+---
+<!-- _layouts/bib_research.html -->
+{%- assign title_link = "" -%}
+{%- if entry.html -%}
+  {%- assign title_link = entry.html -%}
+{%- elsif entry.pdf -%}
+  {%- if entry.pdf contains "://" -%}
+    {%- assign title_link = entry.pdf -%}
+  {%- else -%}
+    {%- assign title_link = entry.pdf | prepend: "/assets/pdf/" | relative_url -%}
+  {%- endif -%}
+{%- elsif entry.url -%}
+  {%- assign title_link = entry.url -%}
+{%- elsif entry.doi -%}
+  {%- assign title_link = entry.doi | prepend: "https://doi.org/" -%}
+{%- endif -%}
+
+{%- capture collaborators -%}
+  {%- assign printed_collaborator = false -%}
+  {%- for author in entry.author_array -%}
+    {%- assign author_first = author.first | strip -%}
+    {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | strip -%}
+    {%- capture author_name -%}{{ author_first }} {{ author_last_name }}{%- endcapture -%}
+    {%- assign author_name = author_name | strip -%}
+    {%- assign author_is_self = false -%}
+
+    {%- if site.scholar.full_name contains author_name -%}
+      {%- assign author_is_self = true -%}
+    {%- elsif site.scholar.last_name contains author_last_name -%}
+      {%- if author_first == "" or site.scholar.first_name contains author_first -%}
+        {%- assign author_is_self = true -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- unless author_is_self -%}
+      {%- assign coauthor_url = "" -%}
+      {%- if site.data.coauthors[author_last_name] -%}
+        {%- for coauthor in site.data.coauthors[author_last_name] -%}
+          {%- if coauthor.firstname contains author_first -%}
+            {%- assign coauthor_url = coauthor.url -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if printed_collaborator -%}, {% endif -%}
+      {%- if coauthor_url != "" -%}<a href="{{ coauthor_url }}">{{ author_name }}</a>{%- else -%}{{ author_name }}{%- endif -%}
+      {%- assign printed_collaborator = true -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign collaborators = collaborators | strip -%}
+
+{%- assign venue = "" -%}
+{%- if entry.venue -%}
+  {%- assign venue = entry.venue | strip -%}
+{%- elsif entry.journal -%}
+  {%- assign venue = entry.journal | strip -%}
+{%- elsif entry.booktitle -%}
+  {%- assign venue = entry.booktitle | strip -%}
+{%- elsif entry.school -%}
+  {%- assign venue = entry.school | strip -%}
+{%- elsif entry.type == "unpublished" -%}
+  {%- assign venue = "Working paper" -%}
+{%- endif -%}
+
+{%- assign status = "" -%}
+{%- if entry.status -%}
+  {%- assign status = entry.status | strip -%}
+{%- elsif entry.note -%}
+  {%- assign status = entry.note | strip -%}
+{%- endif -%}
+{%- if status == "工作论文" or status == "Working paper" or status == "Working Paper" -%}
+  {%- assign status = "" -%}
+{%- endif -%}
+{%- capture research_meta -%}
+  {%- if status != "" -%}
+    {{ status }}
+  {%- else -%}
+    {%- if entry.year -%}{{ entry.year }}{%- endif -%}
+    {%- if entry.pages -%}{%- if entry.year -%}, {% endif -%}{{ entry.pages | replace: "--", "-" }}{%- endif -%}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign research_meta = research_meta | strip -%}
+
+<div id="{{ entry.key }}" class="research-entry research-entry-{{ entry.type }}">
+  {%- if title_link != "" -%}
+    <a class="research-title" href="{{ title_link }}">{{ entry.title }}</a>
+  {%- else -%}
+    <span class="research-title">{{ entry.title }}</span>
+  {%- endif -%}
+  {%- if collaborators != "" -%}
+    <span class="research-separator">,</span>
+    <span class="research-authors">{{ collaborators }}</span>
+  {%- endif -%}
+  {%- if venue != "" -%}
+    <span class="research-separator">,</span>
+    <span class="research-venue">{{ venue }}</span>
+  {%- endif -%}
+  {%- if research_meta != "" -%}
+    <span class="research-separator">,</span>
+    <span class="research-meta">{{ research_meta }}</span>
+  {%- endif -%}
+</div>

@@ -796,6 +796,78 @@ footer.sticky-bottom {
       }
     }
   }
+
+  &.research-one-line {
+    .research-section {
+      margin-top: 2.5rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .research-section-title {
+      color: var(--global-text-color);
+      font-size: 1.15rem;
+      font-weight: 600;
+      line-height: 1.35;
+      margin: 0 0 1rem;
+    }
+
+    h2.bibliography {
+      color: var(--global-divider-color);
+      border-top: 1px solid var(--global-divider-color);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 1rem 0 0.75rem;
+      padding-top: 0.75rem;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    ol.bibliography {
+      margin: 0 0 1.25rem;
+
+      li {
+        margin-bottom: 0.65rem;
+      }
+    }
+
+    .research-entry {
+      color: var(--global-text-color);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    .research-title {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+
+    a.research-title,
+    .research-authors a {
+      border-bottom: 1px solid var(--global-divider-color);
+
+      &:hover {
+        border-bottom-color: var(--global-theme-color);
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+
+    .research-separator {
+      color: var(--global-text-color-light);
+    }
+
+    .research-venue {
+      font-style: italic;
+    }
+
+    .research-entry-unpublished .research-venue {
+      font-style: normal;
+    }
+  }
 }
 
 // Rouge Color Customization
