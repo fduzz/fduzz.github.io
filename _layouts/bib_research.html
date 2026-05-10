@@ -102,3 +102,8 @@
     <span class="research-meta">{{ research_meta }}</span>
   {%- endif -%}
 </div>
+{%- if entry.description -%}
+  <ul class="research-description">
+    <li>{{ entry.description }}</li>
+  </ul>
+{%- endif -%}

@@ -840,6 +840,18 @@ footer.sticky-bottom {
       line-height: 1.55;
     }
 
+    .research-description {
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+      line-height: 1.45;
+      margin: 0.2rem 0 0.85rem 1.1rem;
+      padding-left: 0.8rem;
+
+      li {
+        margin-bottom: 0;
+      }
+    }
+
     .research-title {
       color: var(--global-text-color);
       font-weight: 600;
